@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+}
+
+body{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.resistor{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: -30px;
+}
+
+.kaki{
+    height: 20px;
+    width: 150px;
+    background-color: #666666;
+    position: relative;
+    top: 140px;
+    float:left;
+}
+.circle{
+    width:70px;
+    height:70px;
+    background-color: #D9BC7A;
+    float: left;
+    position: relative;
+    top: 115px;
+    border-radius: 100%;
+}
+
+.badan{
+    width: 90px;
+    height: 40px;
+    background-color: #D9BC7A;
+    float: left;
+    position: relative;
+    top: 130px;
+    left: -12px;
+}
+
+.oneC{
+    left: -2px;
+}
+
+.twoC{
+    left: -19px;
+    z-index: 1;
+}
+
+.oneF{
+    margin-left: 45px;
+}
+
+.twoF{
+    left: -22px;
+    z-index: 0;
+}
+
+#gelang-satu{
+    height: 100%;
+    width: 10px;
+    background-color: brown;
+    margin-right: 9px;
+    float: left;
+}
+
+#gelang-dua{
+    height: 100%;
+    width: 10px;
+    background-color: brown;
+    float: left;
+    margin-right: 9px;
+}
+
+#gelang-tiga{
+    height: 100%;
+    width: 10px;
+    background-color: black;
+    float: left;
+    margin-right: 25px;
+}
+
+#gelang-empat{
+    height: 100%;
+    width: 10px;
+    background-color: gold;
+    float: left;
+}
+
+table{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table, th, td{
+    padding: 8px 0 8px 0;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(2){
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(3){
+    background-color: brown;
+    color: white;
+}
+
+tr:nth-child(4){
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(5){
+    background-color: orange;
+    color: white;
+}
+
+tr:nth-child(6){
+    background-color: yellow;
+    color: black;
+}
+
+tr:nth-child(7){
+    background-color: green;
+    color: white;
+}
+
+tr:nth-child(8){
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(9){
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(10){
+    background-color: grey;
+    color: white;
+}
+
+tr:nth-child(11){
+    background-color: white;
+    color: black;
+}
+
+tr:nth-child(12){
+    background-color: gold;
+    color: black;
+}
+
+tr:nth-child(13){
+    background-color: silver;
+    color: black;
+}
+
+tr:nth-child(14){
+    background-color: white;
+    color: black;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(13, 107, 136);
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+td:hover{
+    cursor: pointer;
+}
